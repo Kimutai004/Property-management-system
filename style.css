@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+header{
+    width: 100%;
+    background-color: aqua;
+    height: 90px;
+}
+
+.logo{
+    padding: 2px;
+}
+
+em{
+    color: red;
+}
+
+
+
+/* navigation section */
+
+nav{
+    width: 15%;
+    background-color: #333;
+    position: fixed;
+    margin-top: 90px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    width: 200px;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #111;
+
+}
+nav a:active{
+    background-color: #4CAF50;
+    
+}
+nav ul li a {
+    position: relative;
+}
+nav ul ul .property-show.show{
+    position: relative;
+    display: block;
+}
+nav ul li ul .property-show.show{
+    display: block;
+}
+nav ul ul li a{
+    padding-left: 80px;
+}
+nav ul li ul {
+    display: none;
+}
+nav ul li ul li{
+    line-height: 42px;
+    border-bottom: none;
+}
+nav ul li ul li a{
+    font-size: 14px;
+    color: #45D6D6;
+    padding-left: 80px;
+}
+nav ul li a span{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+}
+
+
+.menu{
+    
+    margin-top: -40px;
+    float: right;
+    display: none;
+}
+
+.hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: #111;
+    padding-top: 6px;
+}
+.hamburger1{
+    width: 35px;
+    height: 5px;
+    margin-top: -10px;
+    background-color: #111;
+    padding-top: 6px;
+}
+.hamburger2{
+    width: 35px;
+    height: 5px;
+    margin-top: -10px;
+    background-color: #111;
+    padding-top: 6px;
+}
+
+
+
+/* Cards*/
+.card-row{
+    margin-left: 200px;
+    margin-top: 10px;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.card-row-1{
+    margin-left: 200px;
+    margin-top: 10px;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px 0;
+    margin-left: 40px;
+    width: 180px;
+}
+.welcome-card{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    margin-left: 200px;
+    width: 1100px;
+}
+.card h3{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.card p{
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+  
+table {
+    width: 80%;
+    float: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-collapse: collapse;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-left: 240px;
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+    padding: 15px;
+    border: 1px solid black;
+} 
+
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:hover {background-color: #f5f5f5}
+
+
+/* Registration form*/
+.register-form {
+    font-family: 'Open Sans Condensed';
+    border-radius: 50px;
+    width: 800px;
+    float: center;
+    margin-right: 40px;
+    padding: 10px;
+    background: #ffffff;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .row {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+  
+  .rownomargin {
+    margin: 0;
+  }
+  
+  /* Remaining styles */
+  .register-form h1 {
+    text-align: center;
+  }
+  
+  .register-form h2 {
+    text-align: center;
+  }
+  
+  .register-form input[type="text"] {
+    width: 200px;
+    text-align: left;
+    border-radius: 10px;
+    border-radius: 20px;
+    height: 30px;
+  }
+  .register-form input[type="date"] {
+    width: 200px;
+    text-align: left;
+    border-radius: 10px;
+    border-radius: 20px;
+    height: 30px;
+  }
+  
+  
+  .register-form input[type="number"] {
+    box-sizing: border-box;
+    outline: none;
+    display: grid;
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+  }
+  
+  .register-form input[type="password"] {
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+  }
+  
+  .register-form textarea {
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    display: block;
+    height: 30px;
+    width: 100%;
+    padding: 7px;
+  }
+  
+  .register-form input[type="submit"] {
+    padding: 8px 18px;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: aqua;
+    color: #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    text-align: center;
+    margin-left: 40%;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+
+.add-form{
+    font-family: 'Open Sans Condensed';
+    border-radius: 50px;
+    width: 800px;
+    float: center;
+    margin-right: 40px;
+    padding: 10px;
+    background: #ffffff;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+}
+.add-form h1{
+   text-align: center;
+}
+.add-form h2{
+    text-align: center;
+ }
+
+.add-form input[type="text"]{
+    width: 200px;
+    text-align: left;
+    border-radius: 10px;
+    border-radius: 20px;
+    height: 30px;
+
+}
+.add-form input[type="number"]{
+    box-sizing: border-box;
+    outline: none;
+    display: grid;
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+}
+.add-form textarea{
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    display: block;
+    height: 30px;
+    width: 100%;
+    padding: 7px;
+}
+.add-form input[type="submit"]{
+    padding: 8px 18px;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: aqua;
+    color: #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    text-align: center;
+    margin-left: 40%;
+    width: 200px;
+    border-radius: 10px;
+}
+.login-form{
+    text-align: center;
+    background: #ffffff;
+    float: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+    height: 400px;
+}
+.login-form h1{
+    padding: auto;
+}
+
+.login-form input[type="text"]{
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+.login-form input[type="password"]{
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.login-form input[type="submit"]{
+    width: 100px;
+    margin-top: 35px;
+    background-color: #4CAF50;
+    border-radius: 20px;
+    height: 30px;
+    
+}
+.login-form input[type="checkbox"]{
+    margin-top: 20px;
+    text-align: right;
+}
+
+h4{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.register-form{
+    font-family: 'Open Sans Condensed';
+    border-radius: 50px;
+    width: 800px;
+    float: center;
+    margin-right: 40px;
+    padding: 30px;
+    background: #ffffff;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.col-1{
+    margin-left: 220px;
+    background-color: #333;
+    width: 240px;
+    position: fixed;
+}
+.col-1-header{
+    font-size: 30px;
+    text-align: center;
+}
+li .message-sender {
+    width: auto;
+    height: 20px;
+    margin-left: 8px;
+    list-style-type: none;
+    background-color: gray;
+}
+.sender{
+    color: #111;
+    display: block;
+    list-style-type: none;
+    text-emphasis: bold;
+}
+.message{
+    margin-left: 8px;
+    background-color: #333;
+    max-width: fit-content;
+}
+
+.col-2{
+    margin-left: 400px;
+    margin-top: 0;
+    background-color: darkslategray;
+}
+.chat-header{
+    font-size: 30px;
+    text-align: center;
+    background-color: darkslategray;
+    margin-left: 30px;
+    width: 1000px;
+    float: left;
+}
+
+
+
+/*payment form*/
+.payment-form {
+    max-width: 400px;
+    margin: 20px auto;
+    float: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #1c531e;
+}
+
+.payment-form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.payment-form input[type="submit"] {
+    padding: 8px 18px;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: aqua;
+    color: #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    text-align: center;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+
+
+@media screen and (max-width: 600px) {
+    nav {
+      width: 40%;
+      display: none;
+      margin-top: 60px;
+    }
+    .nav ul{
+        display: none;
+    }
+    header{
+        width: 100%;
+        margin: 0%;
+        height: 70px;
+    }
+    .menu{
+        display: block;
+        height: -3px;
+    }
+    .hamburger{
+        margin-top: -13px;
+        display: block;
+    }
+    .login-form{
+        margin: 40px;
+    }
+    .add-form{
+        margin: 20px;
+        margin-right: 50px;
+        width: 100%;
+    }
+    .row{
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    input[type="text"]{
+        margin-top: 6px;
+    }
+    input[type="text"]{
+        margin-left: 6px;
+    }
+    .register-form{
+        margin: 40px;
+    }
+    .welcome-card{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .card{
+        width: 80%;
+    }
+    .card-row{
+        margin-left: 0%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .card-row-1{
+        margin-left: 0%;
+        width: 100%;
+        flex-direction: column;
+    }
+    table{
+        margin-left: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+    td{
+        font-size: x-small;
+        flex-direction: column;
+    }
+    tr{
+        font-size: x-small;
+    }
+    
+    
+}
+
+
+
